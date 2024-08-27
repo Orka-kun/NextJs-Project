@@ -45,12 +45,18 @@ import human3 from '../assets/human3.png'
 import human4 from '../assets/human4.png'
 import smIcons from '../assets/smIcons.png'
 import greenCard from '../assets/greenCard.svg'
+import fbIcon from '../assets/fbIcon.png'
+import yIcon from '../assets/yIcon.png'
+import twtIcon from '../assets/twtIcon.png'
+import linkedIcon from '../assets/linkedIcon.png'
+import Line from '../assets/Line.png'
+import Accordion from './Accordion'
 
 
 
 const cardData = [
     {
-      image: Card1,
+      image : Card1,
       tags: [
         { text: 'ইমেইল মার্কেটিং', color: 'blue-600', bgColor: 'blue-100' },
         { text: 'রেকর্ডেড কোর্স', color: '[#877B00]', bgColor: '[#F2ECAE]', icon: btnicon1 }
@@ -62,7 +68,7 @@ const cardData = [
         { icon: icon4, text: '১.৩ ঘণ্টা লেসন' }
       ],
       instructor: {
-        image: profile3,
+        image : profile3,
         name: 'কালিম আহসান',
         details: '১০ বছরের ইন্ড্রাস্ট্রি এক্সপার্ট, লিড মারকেটারঃ এক্সপোনেন্ট'
       },
@@ -71,7 +77,7 @@ const cardData = [
       buttonText: 'এখনি শিখা শুরু করুন'
     },
     {
-        image: Card2,
+        image : Card2,
         tags: [
           { text: 'ইমেইল মার্কেটিং', color: 'blue-600', bgColor: 'blue-100' },
           { text: 'রেকর্ডেড কোর্স', color: '[#877B00]', bgColor: '[#F2ECAE]', icon: btnicon1 }
@@ -83,7 +89,7 @@ const cardData = [
           { icon: icon4, text: '১.৩ ঘণ্টা লেসন' }
         ],
         instructor: {
-          image: profile3,
+          image : profile3,
           name: 'কালিম আহসান',
           details: '১০ বছরের ইন্ড্রাস্ট্রি এক্সপার্ট, লিড মারকেটারঃ এক্সপোনেন্ট'
         },
@@ -92,7 +98,7 @@ const cardData = [
         buttonText: 'এখনি শিখা শুরু করুন'
       },
       {
-        image: Card3,
+        image : Card3,
         tags: [
           { text: 'ইমেইল মার্কেটিং', color: 'blue-600', bgColor: 'blue-100' },
           { text: 'রেকর্ডেড কোর্স', color: '[#877B00]', bgColor: '[#F2ECAE]', icon: btnicon1 }
@@ -104,7 +110,7 @@ const cardData = [
           { icon: icon4, text: '১.৩ ঘণ্টা লেসন' }
         ],
         instructor: {
-          image: profile3,
+          image : profile3,
           name: 'কালিম আহসান',
           details: '১০ বছরের ইন্ড্রাস্ট্রি এক্সপার্ট, লিড মারকেটারঃ এক্সপোনেন্ট'
         },
@@ -113,7 +119,7 @@ const cardData = [
         buttonText: 'এখনি শিখা শুরু করুন'
       },
       {
-        image: Card4,
+        image : Card4,
         tags: [
           { text: 'ইমেইল মার্কেটিং', color: 'blue-600', bgColor: 'blue-100' },
           { text: 'রেকর্ডেড কোর্স', color: '[#877B00]', bgColor: '[#F2ECAE]', icon: btnicon1 }
@@ -125,7 +131,7 @@ const cardData = [
           { icon: icon4, text: '১.৩ ঘণ্টা লেসন' }
         ],
         instructor: {
-          image: profile3,
+          image : profile3,
           name: 'কালিম আহসান',
           details: '১০ বছরের ইন্ড্রাস্ট্রি এক্সপার্ট, লিড মারকেটারঃ এক্সপোনেন্ট'
         },
@@ -134,7 +140,7 @@ const cardData = [
         buttonText: 'এখনি শিখা শুরু করুন'
       },
       {
-        image: Card5,
+        image : Card5,
         tags: [
           { text: 'ইমেইল মার্কেটিং', color: 'blue-600', bgColor: 'blue-100' },
           { text: 'রেকর্ডেড কোর্স', color: '[#877B00]', bgColor: '[#F2ECAE]', icon: btnicon1 }
@@ -146,7 +152,7 @@ const cardData = [
           { icon: icon4, text: '১.৩ ঘণ্টা লেসন' }
         ],
         instructor: {
-          image: profile3,
+          image : profile3,
           name: 'কালিম আহসান',
           details: '১০ বছরের ইন্ড্রাস্ট্রি এক্সপার্ট, লিড মারকেটারঃ এক্সপোনেন্ট'
         },
@@ -155,7 +161,7 @@ const cardData = [
         buttonText: 'এখনি শিখা শুরু করুন'
       },
       {
-        image: Card6,
+        image : Card6,
         tags: [
           { text: 'ইমেইল মার্কেটিং', color: 'blue-600', bgColor: 'blue-100' },
           { text: 'রেকর্ডেড কোর্স', color: '[#877B00]', bgColor: '[#F2ECAE]', icon: btnicon1 }
@@ -167,7 +173,7 @@ const cardData = [
           { icon: icon4, text: '১.৩ ঘণ্টা লেসন' }
         ],
         instructor: {
-          image: profile3,
+          image : profile3,
           name: 'কালিম আহসান',
           details: '১০ বছরের ইন্ড্রাস্ট্রি এক্সপার্ট, লিড মারকেটারঃ এক্সপোনেন্ট'
         },
@@ -176,7 +182,7 @@ const cardData = [
         buttonText: 'এখনি শিখা শুরু করুন'
       },
       {
-        image: Card7,
+        image : Card7,
         tags: [
           { text: 'ইমেইল মার্কেটিং', color: 'blue-600', bgColor: 'blue-100' },
           { text: 'রেকর্ডেড কোর্স', color: '[#877B00]', bgColor: '[#F2ECAE]', icon: btnicon1 }
@@ -188,7 +194,7 @@ const cardData = [
           { icon: icon4, text: '১.৩ ঘণ্টা লেসন' }
         ],
         instructor: {
-          image: profile3,
+          image : profile3,
           name: 'কালিম আহসান',
           details: '১০ বছরের ইন্ড্রাস্ট্রি এক্সপার্ট, লিড মারকেটারঃ এক্সপোনেন্ট'
         },
@@ -197,7 +203,7 @@ const cardData = [
         buttonText: 'এখনি শিখা শুরু করুন'
       },
       {
-        image: Card8,
+        image : Card8,
         tags: [
           { text: 'ইমেইল মার্কেটিং', color: 'blue-600', bgColor: 'blue-100' },
           { text: 'রেকর্ডেড কোর্স', color: '[#877B00]', bgColor: '[#F2ECAE]', icon: btnicon1 }
@@ -209,7 +215,7 @@ const cardData = [
           { icon: icon4, text: '১.৩ ঘণ্টা লেসন' }
         ],
         instructor: {
-          image: profile3,
+          image : profile3,
           name: 'কালিম আহসান',
           details: '১০ বছরের ইন্ড্রাস্ট্রি এক্সপার্ট, লিড মারকেটারঃ এক্সপোনেন্ট'
         },
@@ -218,7 +224,7 @@ const cardData = [
         buttonText: 'এখনি শিখা শুরু করুন'
       },
       {
-        image: Card9,
+        image : Card9,
         tags: [
           { text: 'ইমেইল মার্কেটিং', color: 'blue-600', bgColor: 'blue-100' },
           { text: 'রেকর্ডেড কোর্স', color: '[#877B00]', bgColor: '[#F2ECAE]', icon: btnicon1 }
@@ -230,7 +236,7 @@ const cardData = [
           { icon: icon4, text: '১.৩ ঘণ্টা লেসন' }
         ],
         instructor: {
-          image: profile3,
+          image : profile3,
           name: 'কালিম আহসান',
           details: '১০ বছরের ইন্ড্রাস্ট্রি এক্সপার্ট, লিড মারকেটারঃ এক্সপোনেন্ট'
         },
@@ -239,7 +245,7 @@ const cardData = [
         buttonText: 'এখনি শিখা শুরু করুন'
       },
       {
-        image: Card7,
+        image : Card7,
         tags: [
           { text: 'ইমেইল মার্কেটিং', color: 'blue-600', bgColor: 'blue-100' },
           { text: 'রেকর্ডেড কোর্স', color: '[#877B00]', bgColor: '[#F2ECAE]', icon: btnicon1 }
@@ -251,7 +257,7 @@ const cardData = [
           { icon: icon4, text: '১.৩ ঘণ্টা লেসন' }
         ],
         instructor: {
-          image: profile3,
+          image : profile3,
           name: 'কালিম আহসান',
           details: '১০ বছরের ইন্ড্রাস্ট্রি এক্সপার্ট, লিড মারকেটারঃ এক্সপোনেন্ট'
         },
@@ -260,7 +266,7 @@ const cardData = [
         buttonText: 'এখনি শিখা শুরু করুন'
       },
       {
-        image: Card8,
+        image : Card8,
         tags: [
           { text: 'ইমেইল মার্কেটিং', color: 'blue-600', bgColor: 'blue-100' },
           { text: 'রেকর্ডেড কোর্স', color: '[#877B00]', bgColor: '[#F2ECAE]', icon: btnicon1 }
@@ -272,7 +278,7 @@ const cardData = [
           { icon: icon4, text: '১.৩ ঘণ্টা লেসন' }
         ],
         instructor: {
-          image: profile3,
+          image : profile3,
           name: 'কালিম আহসান',
           details: '১০ বছরের ইন্ড্রাস্ট্রি এক্সপার্ট, লিড মারকেটারঃ এক্সপোনেন্ট'
         },
@@ -281,7 +287,7 @@ const cardData = [
         buttonText: 'এখনি শিখা শুরু করুন'
       },
       {
-        image: Card9,
+        image : Card9,
         tags: [
           { text: 'ইমেইল মার্কেটিং', color: 'blue-600', bgColor: 'blue-100' },
           { text: 'রেকর্ডেড কোর্স', color: '[#877B00]', bgColor: '[#F2ECAE]', icon: btnicon1 }
@@ -293,7 +299,7 @@ const cardData = [
           { icon: icon4, text: '১.৩ ঘণ্টা লেসন' }
         ],
         instructor: {
-          image: profile3,
+          image : profile3,
           name: 'কালিম আহসান',
           details: '১০ বছরের ইন্ড্রাস্ট্রি এক্সপার্ট, লিড মারকেটারঃ এক্সপোনেন্ট'
         },
@@ -310,7 +316,7 @@ const Home = () => {
     <header className="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 shadow-md">
         <div className="flex-1 flex justify-between items-center ">
         
-            <a href="#" className="text-3xl flex font-LiNoirrit pl-28"><Image className='h-8 mr-1' width={32} src={logo}/>প্রায়োগীক</a>
+            <a href="#" className="text-3xl flex font-LiNoirrit pl-28 "><Image alt='' className='h-8 mr-1' width={32} src={logo}/>প্রায়োগীক</a>
         </div>
         
         <label htmlFor="menu-toggle" className="pointer-cursor md:hidden block">
@@ -347,29 +353,29 @@ const Home = () => {
                     <button className=' h-fit bg-[#0D9488] py-3 px-6 text-white rounded-lg'>কোর্সগুলো দেখুন</button>
                     <button className='h-fit bg-[#F9851A] py-3 px-6 text-white rounded-lg'>সকল কোর্সের মেম্বার হন </button>
                     <div className=' px-14 '>
-                        <Image className='max-w-16' src ={Image1}/>
+                        <Image alt='' className='max-w-16' src ={Image1}/>
                     </div>
                 </div>
             </div>
             <div className='relative max-w-52 flex gap-0.5'>
-                    <Image className='mb-24 relative z-10' src={profile1}/> 
+                    <Image alt='' className='mb-24 relative z-10' src={profile1}/> 
                     <ul className='absolute z-50 top-56 left-6'>
                         <li><h1 className='text-white '>আবুল কাসেম</h1></li>
                         <li><p className='text-white text-xxsm font-light'>১৫ বছরের ইন্ড্রাস্ট্রি এক্সপার্ট </p></li>
                     </ul>
                 <div>
-                    <Image className='absolute top-52 -left-10 max-w-24' src={icon1}/>          
+                    <Image alt='' className='absolute top-52 -left-10 max-w-24' src={icon1}/>          
                 </div>
                 <div>
-                    <Image className='absolute z-10 max-w-24' src={micIcon1}/>
+                    <Image alt='' className='absolute z-10 max-w-24' src={micIcon1}/>
                 </div>
                 <div>
-                    <Image className='absolute z-10 max-w-24 -top-12 -right-40 ' src={micIcon2}/>
+                    <Image alt='' className='absolute z-10 max-w-24 -top-12 -right-40 ' src={micIcon2}/>
                 </div>
                 <div className=''>
-                    <Image className='absolute max-w-22  top-6 -right-32' src={roundIcon2}/>
+                    <Image alt='' className='absolute max-w-22  top-6 -right-32' src={roundIcon2}/>
                 </div>
-                <Image className='z-10 mt-24'src={profile2}/>
+                <Image alt='' className='z-10 mt-24'src={profile2}/>
                 <ul className='absolute z-50 top-80 left-60 w-32'>
                         <li><h1 className='text-white text-base'>আবুল কাসেম</h1></li>
                         <li><p className='text-white text-xxsm font-light'>১৫ বছরের ইন্ড্রাস্ট্রি এক্সপার্ট </p></li>
@@ -389,15 +395,17 @@ const Home = () => {
       {cardData.map((card, index) => (
         <li key={index} className="relative bg-white flex flex-col justify-between border rounded-lg shadow-md hover:shadow-teal-400">
           <a className="relative">
-            <Image className="rounded-lg relative object-cover  " src={card.image} alt="" loading="lazy" />
+            <Image alt='' className="rounded-lg relative object-cover  " src={card.image} loading="lazy" />
           </a>
           <div className="flex flex-col justify-between gap-3 px-4 py-2 mx-3">
             <div className='flex'>
               {card.tags.map((tag, i) => (
                 <button key={i} type="button" className={`text-${tag.color} bg-${tag.bgColor} focus:outline-none rounded-full text-xxsm px-1.5 py-0.5 mx-1 flex`}>
-                  {tag.icon && <Image className='mx-1' src={tag.icon} />}
+                  {tag.icon && <Image alt='' className='mx-1' src={tag.icon} />}
                   {tag.text}
+                  
                 </button>
+                
               ))}
             </div>
             <p className="text-black-600 two-lines font-bold">
@@ -406,19 +414,19 @@ const Home = () => {
             <div className='flex text-xxsm space-x-2'>
               {card.details.map((detail, i) => (
                 <React.Fragment key={i}>
-                  <Image className='w-3 h-3' src={detail.icon} />
+                  <Image alt='' className='w-3 h-3' src={detail.icon} />
                   <span>{detail.text}</span>
                 </React.Fragment>
               ))}
             </div>
             <div className='flex items-center'>
-              <Image src={card.instructor.image} />
+              <Image alt='' src={card.instructor.image} />
               <div className='mx-1'>
                 <h1 className='text-sm font-bold'>{card.instructor.name}</h1>
                 <p className='text-xxsm'>{card.instructor.details}</p>
               </div>
             </div>
-            <div className=' h-0.5 min-w-full bg-black'>
+            <div className='h-0.5 max-w-96 bg-[#E5E5E5]'>
 
             </div>
             <span className="flex flex-wrap text-sm gap-4 my-1 items-center font-bold">
@@ -446,28 +454,28 @@ const Home = () => {
       </div>
       <div className='grid grid-cols-2 gap-2 max-w-lg'>
         <div className='bg-white px-3 py-5 text-base font-bold rounded-lg text-center flex items-center gap-x-3 '>
-        <Image className='pl-2' src={icon5} alt=''/><h1>ফুল স্টাক ডিজিটাল মার্কেটার</h1>
+        <Image alt='' className='pl-2' src={icon5} /><h1>ফুল স্টাক ডিজিটাল মার্কেটার</h1>
         </div>
         <div className='bg-white px-5 py-4 text-base font-bold rounded-lg text-center flex items-center gap-x-3'>
-          <Image className='pl-2' src={icon6} alt=''/><h1>সোশ্যাল মিডিয়া মার্কেটার </h1>
+          <Image alt='' className='pl-2' src={icon6} /><h1>সোশ্যাল মিডিয়া মার্কেটার </h1>
         </div>
         <div className='bg-white px-3 py-5 text-base font-bold rounded-lg text-center flex items-center gap-x-3'>
-          <Image className='pl-2' src={icon7} alt=''/><h1>সোশ্যাল ইনফ্লুয়েন্সার</h1>
+          <Image alt='' className='pl-2' src={icon7} /><h1>সোশ্যাল ইনফ্লুয়েন্সার</h1>
         </div>
         <div className='bg-white px-3 py-5 text-base font-bold rounded-lg text-center flex items-center gap-x-3'>
-          <Image className='pl-2' src={icon8} alt=''/><h1>কন্টেন্ট এবং কপিরাইটার</h1>
+          <Image alt='' className='pl-2' src={icon8} /><h1>কন্টেন্ট এবং কপিরাইটার</h1>
         </div>
         <div className='bg-white px-3 py-5 text-base font-bold rounded-lg text-center flex items-center gap-x-3'>
-          <Image className='pl-2' src={icon9} alt=''/><h1>এসইও এক্সপার্ট</h1>
+          <Image alt='' className='pl-2' src={icon9} /><h1>এসইও এক্সপার্ট</h1>
         </div>
         <div className='bg-white px-3 py-5 text-base font-bold rounded-lg text-center flex items-center gap-x-3'>
-          <Image className='pl-2' src={icon10} alt=''/><h1 >PPC মার্কেটার</h1>
+          <Image alt='' className='pl-2' src={icon10} /><h1 >PPC মার্কেটার</h1>
         </div>
         <div className='bg-white px-3 py-5 text-base font-bold rounded-lg text-center flex items-center gap-x-3'>
-          <Image className='pl-2' src={icon11} alt=''/><h1>ইমেইল মার্কেটিং</h1>
+          <Image alt='' className='pl-2' src={icon11} /><h1>ইমেইল মার্কেটিং</h1>
         </div>
         <div className='bg-white px-3 py-5 text-base font-bold rounded-lg text-center flex items-center gap-x-3'>
-          <Image  src={icon12} alt=''/><h1>ডিজিটাল এনালাইটিক্স</h1>
+          <Image alt=''  src={icon12} /><h1>ডিজিটাল এনালাইটিক্স</h1>
         </div>
       </div>
       
@@ -478,39 +486,39 @@ const Home = () => {
     </div>
     <ul className='grid grid-cols-4 max-w-[62rem] mx-auto gap-4'>
       <li className='bg-white rounded-lg'>
-        <Image src={human1}/>
+        <Image alt='' src={human1}/>
         <div className='text-center py-4 '>
           <h1 className='font-bold text-xl '>ফকরুল ইসলাম মিদুল </h1>
           <h2 className='text-sm text-[#115E57]'>ডিজিটাল মার্কেটিং এক্সপার্ট </h2>
           <p className='text-xxs'>12 বছর এর অভিগতা সম্পুর্ন </p>
-          <Image className='mx-auto py-2 max-w-20' src={smIcons}/>
+          <Image alt='' className='mx-auto py-2 max-w-20' src={smIcons}/>
         </div>
       </li>
       <li className=' bg-white rounded-lg'>
-        <Image src={human2}/>
+        <Image alt='' src={human2}/>
         <div className='text-center py-4'>
           <h1 className='font-bold text-xl '>ফকরুল ইসলাম মিদুল </h1>
           <h2 className='text-sm text-[#115E57]'>ডিজিটাল মার্কেটিং এক্সপার্ট </h2>
           <p className='text-xxs'>12 বছর এর অভিগতা সম্পুর্ন </p>
-          <Image className='mx-auto py-2 max-w-20' src={smIcons}/>
+          <Image alt='' className='mx-auto py-2 max-w-20' src={smIcons}/>
         </div>
       </li>
       <li className='bg-white rounded-lg'>
-        <Image src={human3}/>
+        <Image alt='' src={human3}/>
         <div className='text-center py-4'>
           <h1 className='font-bold text-xl '>ফকরুল ইসলাম মিদুল </h1>
           <h2 className='text-sm text-[#115E57]'>ডিজিটাল মার্কেটিং এক্সপার্ট </h2>
           <p className='text-xxs'>12 বছর এর অভিগতা সম্পুর্ন </p>
-          <Image className='mx-auto py-2 max-w-20' src={smIcons}/>
+          <Image alt='' className='mx-auto py-2 max-w-20' src={smIcons}/>
         </div>
       </li>
       <li className='bg-white rounded-lg'>
-        <Image src={human4}/>
+        <Image alt='' src={human4}/>
         <div className='text-center py-4'>
           <h1 className='font-bold text-xl '>ফকরুল ইসলাম মিদুল </h1>
           <h2 className='text-sm text-[#115E57]'>ডিজিটাল মার্কেটিং এক্সপার্ট </h2>
           <p className='text-xxs'>12 বছর এর অভিগতা সম্পুর্ন </p>
-          <Image className='mx-auto py-2 max-w-20' src={smIcons}/>
+          <Image alt='' className='mx-auto py-2 max-w-20' src={smIcons}/>
         </div>
       </li>
     </ul>
@@ -521,42 +529,42 @@ const Home = () => {
     </div>
     <div className='grid grid-cols-2 max-w-5xl mx-auto gap-x-10 gap-y-14 pb-24 '>
       <div className='flex items-start gap-4'>
-        <Image className='max-w-6' src={icon13}/>
+        <Image alt='' className='max-w-6' src={icon13}/>
         <div className=''>
         <h1 className='font-bold text-sm'>সার্বক্ষনিক সাপোর্ট </h1>
         <p className='text-sm pt-3  '> তবে ইসরায়েলের দক্ষিণাঞ্চলে একটি ঘাঁটিতে কয়েকটি ক্ষেপণাস্ত্র ও ড্রোন আঘাত হেনেছে বলেছে আইডিএফ এতে সামান্য অবকাঠামোগত ক্ষতি হয়েছে বলেছে এই বাহিনী।</p>
         </div>
       </div>
       <div className='flex items-start gap-4'>
-        <Image className='max-w-6' src={icon14}/>
+        <Image alt='' className='max-w-6' src={icon14}/>
         <div className=''>
         <h1 className='font-bold text-sm'>প্রফেশনাল সার্টিফিকেট </h1>
         <p className='text-sm pt-3  '>তবে ইসরায়েলের দক্ষিণাঞ্চলে একটি ঘাঁটিতে কয়েকটি ক্ষেপণাস্ত্র ও ড্রোন আঘাত হেনেছে বলেছে আইডিএফ এতে সামান্য অবকাঠামোগত ক্ষতি হয়েছে বলেছে এই বাহিনী।</p>
         </div>
       </div>
       <div className='flex items-start gap-4'>
-        <Image className='max-w-6' src={icon15}/>
+        <Image alt='' className='max-w-6' src={icon15}/>
         <div className=''>
         <h1 className='font-bold text-sm'>জব ইন্টার্ভিউ প্রস্তুতি </h1>
         <p className='text-sm pt-3  '>তবে ইসরায়েলের দক্ষিণাঞ্চলে একটি ঘাঁটিতে কয়েকটি ক্ষেপণাস্ত্র ও ড্রোন আঘাত হেনেছে বলেছে আইডিএফ এতে সামান্য অবকাঠামোগত ক্ষতি হয়েছে বলেছে এই বাহিনী।</p>
         </div>
       </div>
       <div className='flex items-start gap-4'>
-        <Image className='max-w-6' src={icon16}/>
+        <Image alt='' className='max-w-6' src={icon16}/>
         <div className=''>
         <h1 className='font-bold text-sm'>ক্যারিয়ার রোডম্যাপ </h1>
         <p className='text-sm pt-3  '>তবে ইসরায়েলের দক্ষিণাঞ্চলে একটি ঘাঁটিতে কয়েকটি ক্ষেপণাস্ত্র ও ড্রোন আঘাত হেনেছে বলেছে আইডিএফ এতে সামান্য অবকাঠামোগত ক্ষতি হয়েছে বলেছে এই বাহিনী।</p>
         </div>
       </div>
       <div className='flex items-start gap-4'>
-        <Image className='max-w-6' src={icon17}/>
+        <Image alt='' className='max-w-6' src={icon17}/>
         <div className=''>
         <h1 className='font-bold text-sm'>এসাইনমেন্ট</h1>
         <p className='text-sm pt-3  '>তবে ইসরায়েলের দক্ষিণাঞ্চলে একটি ঘাঁটিতে কয়েকটি ক্ষেপণাস্ত্র ও ড্রোন আঘাত হেনেছে বলেছে আইডিএফ এতে সামান্য অবকাঠামোগত ক্ষতি হয়েছে বলেছে এই বাহিনী।</p>
         </div>
       </div>
       <div className='flex items-start gap-4'>
-        <Image className='max-w-6' src={icon18}/>
+        <Image alt='' className='max-w-6' src={icon18}/>
         <div className=''>
         <h1 className='font-bold text-sm'>ইন্ড্রাস্ট্রি এক্সপার্ট মেন্টর</h1>
         <p className='text-sm pt-3  '> তবে ইসরায়েলের দক্ষিণাঞ্চলে একটি ঘাঁটিতে কয়েকটি ক্ষেপণাস্ত্র ও ড্রোন আঘাত হেনেছে বলেছে আইডিএফ এতে সামান্য অবকাঠামোগত ক্ষতি হয়েছে বলেছে এই বাহিনী।</p>
@@ -571,10 +579,10 @@ const Home = () => {
     <div className=''>
       <ul className='grid grid-cols-3 max-w-5xl mx-auto gap-2'>
       <li className='bg-white rounded-lg p-5'>
-        <Image className='max-w-8 pb-4' src={icon19}/>
+        <Image alt='' className='max-w-8 pb-4' src={icon19}/>
         <p className='text-sm font-bold pb-4'>আমার একটি অনলাইন পেজ ছিল কিন্তু পেইজটিকে নিয়ে কিভাবে সামনে আগাবে কোন কিছু বুঝতে পারছিলাম না । কোর্সটি করার মাধ্যমে কিভাবে একটি বেসিক পোস্ট দিবো কিভাবে ইউজ করব কিভাবে কন্টাক্ট করবো শিখতে পেরেছি।</p>
         <div className='flex items-center'>
-        <Image className='max-h-11 max-w-11' src={icon20}/>
+        <Image alt='' className='max-h-11 max-w-11' src={icon20}/>
         <div className='pl-2'>
           <h1 className='font-bold text-sm'>আসলাম খান </h1>
           <h3 className='text-xxs text-[#0D9488]'>ডিজিটাল মার্কেটিং</h3>
@@ -582,10 +590,10 @@ const Home = () => {
         </div>
       </li>
       <li className='bg-white rounded-lg p-5'>
-        <Image className='max-w-8 pb-4' src={icon19}/>
+        <Image alt='' className='max-w-8 pb-4' src={icon19}/>
         <p className='text-sm font-bold pb-4'>অফলাইনে শেখার মত সময় হয়ে উঠছিল না তাই অনলাইন কোর্স কে বেছে নেওয়া । কোর্সটিতে খুব সুন্দর করে হরফ তানভীন মাদ পড়ানো হয়েছে । খুব সহজেই প্রতিদিন প্র্যাকটিস করে খুব দ্রুত শুদ্ধ তেলাওয়াত আয়ত্ত করতে পেরেছি।</p>
         <div className='flex items-center'>
-        <Image className='max-h-11 max-w-11' src={icon20}/>
+        <Image alt='' className='max-h-11 max-w-11' src={icon20}/>
         <div className='pl-2'>
           <h1 className='font-bold text-sm'>আসলাম খান </h1>
           <h3 className='text-xxs text-[#0D9488]'>ডিজিটাল মার্কেটিং</h3>
@@ -593,10 +601,10 @@ const Home = () => {
         </div>
       </li>
       <li className='bg-white rounded-lg p-5'>
-        <Image className='max-w-8 pb-4' src={icon19}/>
+        <Image alt='' className='max-w-8 pb-4' src={icon19}/>
         <p className='text-sm font-bold pb-4'>টেন মিনিট স্কুলের অনলাইন ব্যাচে ইংরেজি ক্লাস করার পর ইংরেজি বিষয়ে আমি ৯০+ মার্কস পেয়েছি। এছাড়াও টেন মিনিট স্কুলের লাইভ চ্যাট, পোল এবং লিডারবোর্ড ফিচারটি চমৎকার যা আমাদের প্রতিনিয়ত পড়াশোনার আগ্রহ বাড়াতে সাহায্য করেছে।</p>
         <div className='flex items-center'>
-        <Image className='max-h-11 max-w-11' src={icon20}/>
+        <Image alt='' className='max-h-11 max-w-11' src={icon20}/>
         <div className='pl-2'>
           <h1 className='font-bold text-sm'>আসলাম খান </h1>
           <h3 className='text-xxs text-[#0D9488]'>ডিজিটাল মার্কেটিং</h3>
@@ -604,10 +612,10 @@ const Home = () => {
         </div>
       </li>
       <li className='bg-white rounded-lg p-5'>
-        <Image className='max-w-8 pb-4' src={icon19}/>
+        <Image alt='' className='max-w-8 pb-4' src={icon19}/>
         <p className='text-sm font-bold pb-4'>আমার একটি অনলাইন পেজ ছিল কিন্তু পেইজটিকে নিয়ে কিভাবে সামনে আগাবে কোন কিছু বুঝতে পারছিলাম না । কোর্সটি করার মাধ্যমে কিভাবে একটি বেসিক পোস্ট দিবো কিভাবে ইউজ করব কিভাবে কন্টাক্ট করবো শিখতে পেরেছি।</p>
         <div className='flex items-center'>
-        <Image className='max-h-11 max-w-11' src={icon20}/>
+        <Image alt='' className='max-h-11 max-w-11' src={icon20}/>
         <div className='pl-2'>
           <h1 className='font-bold text-sm'>আসলাম খান </h1>
           <h3 className='text-xxs text-[#0D9488]'>ডিজিটাল মার্কেটিং</h3>
@@ -615,10 +623,10 @@ const Home = () => {
         </div>
       </li>
       <li className='bg-white rounded-lg p-5'>
-        <Image className='max-w-8 pb-4' src={icon19}/>
+        <Image alt='' className='max-w-8 pb-4' src={icon19}/>
         <p className='text-sm font-bold pb-4'>অফলাইনে শেখার মত সময় হয়ে উঠছিল না তাই অনলাইন কোর্স কে বেছে নেওয়া । কোর্সটিতে খুব সুন্দর করে হরফ তানভীন মাদ পড়ানো হয়েছে । খুব সহজেই প্রতিদিন প্র্যাকটিস করে খুব দ্রুত শুদ্ধ তেলাওয়াত আয়ত্ত করতে পেরেছি।</p>
         <div className='flex items-center'>
-        <Image className='max-h-11 max-w-11' src={icon20}/>
+        <Image alt='' className='max-h-11 max-w-11' src={icon20}/>
         <div className='pl-2'>
           <h1 className='font-bold text-sm'>আসলাম খান </h1>
           <h3 className='text-xxs text-[#0D9488]'>ডিজিটাল মার্কেটিং</h3>
@@ -626,10 +634,10 @@ const Home = () => {
         </div>
       </li>
       <li className='bg-white rounded-lg p-5'>
-        <Image className='max-w-8 pb-4' src={icon19}/>
+        <Image alt='' className='max-w-8 pb-4' src={icon19}/>
         <p className='text-sm font-bold pb-4'>টেন মিনিট স্কুলের অনলাইন ব্যাচে ইংরেজি ক্লাস করার পর ইংরেজি বিষয়ে আমি ৯০+ মার্কস পেয়েছি। এছাড়াও টেন মিনিট স্কুলের লাইভ চ্যাট, পোল এবং লিডারবোর্ড ফিচারটি চমৎকার যা আমাদের প্রতিনিয়ত পড়াশোনার আগ্রহ বাড়াতে সাহায্য করেছে।</p>
         <div className='flex items-center'>
-        <Image className='max-h-11 max-w-11' src={icon20}/>
+        <Image alt='' className='max-h-11 max-w-11' src={icon20}/>
         <div className='pl-2'>
           <h1 className='font-bold text-sm'>আসলাম খান </h1>
           <h3 className='text-xxs text-[#0D9488]'>ডিজিটাল মার্কেটিং</h3>
@@ -639,7 +647,7 @@ const Home = () => {
       </ul>
     </div>
     <div className='relative p-36 flex items-center justify-center'>
-      <Image className='absolute max-w-5xl ' src={greenCard}/>
+      <Image alt='' className='absolute max-w-5xl ' src={greenCard}/>
       <div className='relative z-10 flex items-center gap-64'>
          <div className='text-white'>
             <h3 className=' text-3xl font-bold'>প্রায়োগিকের প্লাস মেম্বার হোন</h3>
@@ -653,13 +661,13 @@ const Home = () => {
     <div className="flex justify-center text-2xl md:text-4xl font-bold">
     আমদের সম্পর্কে কিছু প্রশ্ন এবং উত্তর 
     </div>
-    <div className='grid grid-rows-5 max-w-[52rem] pt-10 mx-auto gap-2'>
+    <div className='grid grid-rows-5 max-w-[52rem] pt-10 mx-auto gap-2 pb-10'>
       <div className=' bg-white font-bold text-base rounded-lg flex '>
           <h1 className=' py-6 pl-5'>কোর্সের ভর্তি বাতিল করা কী সম্ভব ?</h1>
       </div>
       <div className=' bg-white font-bold text-base rounded-lg flex '>
           <h1 className=' py-6 pl-5'>সার্টিফিকেটের মেয়াদ কী শেষ হবে ?</h1>
-      </div>
+      </div>   
       <div className=' bg-white font-bold text-base rounded-lg flex '>
           <h1 className=' py-6 pl-5'>কোন টেকনিকাল সমস্যা কিভাবে রিপোর্ট করবো ?</h1>
       </div>
@@ -669,11 +677,53 @@ const Home = () => {
       <div className=' bg-white font-bold text-base rounded-lg flex '>
           <h1 className=' py-6 pl-5'>আপনাদের সাতে কিভাবে যোগাযোগ করবো ?</h1>
       </div>
-      <select className=' bg-white font-bold text-base rounded-lg flex'>
-        <option></option>
-      </select>
+      
+
     </div>
 
+  </div>
+  <div className='bg-[#042F2B] text-white '>
+      <div className=' grid grid-cols-4 max-w-[60rem] mx-auto pt-24 pb-10'>
+        <div className='flex flex-col gap-4'>
+          <div className='flex gap-2'>
+            <Image alt='' className='max-w-8 max-h-8' src={logo}/>
+            <h1 className='text-3xl font-LiNoirrit'>প্রায়োগীক</h1>
+          </div>
+          <p className='text-[.8rem] font-light max-w-56 '>বাংলায় ডিজিটাল মার্কেটিং সম্পর্কে যারা জানতে চান তাদের জন্য সেরা ডিজিটাল মার্কেটিং এডুকেশন প্লাটফর্ম </p>
+          <div className='flex gap-4'>
+            <Image alt='' className=' max-h-8 max-w-8' src={fbIcon}/>
+            <Image alt='' className=' max-h-8 max-w-8' src={yIcon}/>
+            <Image alt='' className=' max-h-8 max-w-8' src={twtIcon}/>
+            <Image alt='' className=' max-h-8 max-w-8' src={linkedIcon}/>
+          </div>
+        </div>
+
+        <div className='flex flex-col gap-4'>
+          <h1>কোম্পানি</h1>
+          <h3 className='text-[.8rem] font-light'>ক্যারিয়ার</h3>
+          <h3 className='text-[.8rem] font-light'>শিক্ষক হিসেবে জয়েন</h3>
+          <h3 className='text-[.8rem] font-light'>প্রাইভেসি পলিসি</h3>
+          <h3 className='text-[.8rem] font-light'>রিফান্ড পলিসি</h3>
+          <h3 className='text-[.8rem] font-light'>ব্যবহারকারীর শর্তাবলি</h3>
+        </div>
+
+        <div className='flex flex-col gap-4'>
+          <h1>অন্যান্য  </h1>
+          <h3 className='text-[.8rem] font-light'>ব্লগ</h3>
+          <h3 className='text-[.8rem] font-light'>নোটস এবং গাইডস</h3>
+          <h3 className='text-[.8rem] font-light'>ভেরিফাই সার্টিফিকেট</h3>
+          <h3 className='text-[.8rem] font-light'>সকল কোর্স সমূহ </h3>
+        </div>
+
+        <div className='flex flex-col gap-4'>
+          <h1>আমাদের সাতে যোগাযোগের  মধ্যম </h1>
+          <h3 className='text-[.8rem] font-light'>হোয়াটস অ্যাপ: +880171 457 6023 (24x7)</h3>
+          <h3 className='text-[.8rem] font-light'>দেশের বাহিরে থেকে : +8806 895 926 23</h3>
+          <h3 className='text-[.8rem] font-light'>ইমেল: hello@prayogik.com</h3>
+        </div>
+      </div>
+      <Image alt='' className='py-10 mx-auto max-w-4xl' src={Line}/>
+      <p className=' text-[.8rem] text-center font-light pb-10'>স্বত্ব © ২০২৩ - ২০২৪ প্রয়োগিক  কর্তৃক সর্বস্বত্ব সংরক্ষিত</p>
   </div>
 
 </div>
